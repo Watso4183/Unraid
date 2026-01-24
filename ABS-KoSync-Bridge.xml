@@ -19,8 +19,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1769226810</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText/>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But if you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
+  <DonateLink/>https://buymeacoffee.com/acmepluto</DonateLink>
   <Requires/>
   <Config Name="Books" Target="/books" Default="/Path/to/books" Mode="rw,slave" Description="Your EPUB library" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Config" Target="/data" Default="" Mode="rw,slave" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
