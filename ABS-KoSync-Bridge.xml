@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support/>https://forums.unraid.net/topic/196737-support-abs-kosync-bridge/</Support>
   <Project>https://github.com/cporcellijr/abs-kosync-bridge</Project>
   <ReadMe>https://github.com/cporcellijr/abs-kosync-bridge</ReadMe>
   <Overview>ABS-KoSync Enhanced is a powerful, automated synchronization engine designed to unify your reading and listening experiences. It bridges the gap between audiobooks and ebooks, ensuring that whether you're listening on the go or reading on your e-reader, your progress is always perfectly aligned.</Overview>
