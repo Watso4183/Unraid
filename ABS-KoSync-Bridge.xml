@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ABS-KoSync-Bridge</Name>
+  <Repository>ghcr.io/cporcellijr/abs-kosync-bridge:latest</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/cporcellijr/abs-kosync-bridge</Project>
+  <ReadMe>https://github.com/cporcellijr/abs-kosync-bridge</ReadMe>
+  <Overview>ABS-KoSync Enhanced is a powerful, automated synchronization engine designed to unify your reading and listening experiences. It bridges the gap between audiobooks and ebooks, ensuring that whether you're listening on the go or reading on your e-reader, your progress is always perfectly aligned.</Overview>
+  <Category>Tools: MediaApp:Books Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:5757]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/cporcellijr/abs-kosync-bridge/blob/main/ABS-KOSync-Bridge.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1769226810</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Books" Target="/books" Default="/Path/to/books" Mode="rw,slave" Description="Your EPUB library" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config" Target="/data" Default="" Mode="rw,slave" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <TailscaleStateDir/>
+</Container>
