@@ -23,6 +23,6 @@
   <Requires/>
   <Config Name="Books" Target="/books" Default="" Mode="rw,slave" Description="Your EPUB library" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Config" Target="/data" Default="" Mode="rw,slave" Description="You config storage location" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Port" Target="port" Default="5757" Mode="" Description="Internal application port (should match WebUI port)" Type="Variable" Display="always" Required="true" Mask="false">5757</Config>
+  <Config Name="Web UI Port" Target="5757" Default="5757" Mode="tcp" Description="Container Port: 5757" Type="Port" Display="always-hide" Required="true" Mask="false">5757</Config>
   <TailscaleStateDir/>
 </Container>
