@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>https://forums.unraid.net/topic/196737-support-abs-kosync-bridge/</Support>
+  <Support>https://forums.unraid.net/topic/196737-support-abs-kosync-bridge/</Support>
   <Project>https://github.com/cporcellijr/abs-kosync-bridge</Project>
   <ReadMe>https://github.com/cporcellijr/abs-kosync-bridge</ReadMe>
   <Overview>ABS-KoSync Enhanced is a powerful, automated synchronization engine designed to unify your reading and listening experiences. It bridges the gap between audiobooks and ebooks, ensuring that whether you're listening on the go or reading on your e-reader, your progress is always perfectly aligned.</Overview>
@@ -19,8 +19,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1769226810</DateInstalled>
-  <DonateText/>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But if you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
-  <DonateLink/>https://buymeacoffee.com/acmepluto</DonateLink>
+  <DonateText>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But if you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
+  <DonateLink>https://buymeacoffee.com/acmepluto</DonateLink>
   <Requires/>
   <Config Name="Books" Target="/books" Default="" Mode="rw,slave" Description="Your EPUB library" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Config" Target="/data" Default="" Mode="rw,slave" Description="You config storage location" Type="Path" Display="always" Required="false" Mask="false"/>
