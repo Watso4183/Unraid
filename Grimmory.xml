@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Grimmory</Name>
+  <Repository>ghcr.io/grimmory-tools/grimmory:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/190366-booklore-template-support-thread</Support>
+  <Project>https://github.com/grimmory-tools/grimmory</Project>
+  <Overview>Grimmory, previously known as BookLore, is a self-hosted application for managing your entire book collection in one place. Organize, read, annotate, sync across devices, and share without relying on third-party services.</Overview>
+  <Category>Media Servers:</Category>
+  <WebUI>http://[IP]:[PORT:6060]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Watso4183/Unraid/master/grimmory.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But if you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
+  <DonateLink>https://buymeacoffee.com/acmepluto</DonateLink>
+  <Requires>Requires a separate MariaDB instance (available as a separate template) &#xD;</Requires>
+  <Config Name="WebUI" Target="6060" Default="6060" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6060</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="jdbc:mariadb://localhost:3306/grimmory" Description="Database URL" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DATABASE_USERNAME" Target="DATABASE_USERNAME" Default="grimmory" Description="Database Username" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DATABASE_PASSWORD" Target="DATABASE_PASSWORD" Default="password" Description="Database Password" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="USER_ID" Target="USER_ID" Default="99" Description="USER_ID" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="GROUP_ID" Target="GROUP_ID" Default="100" Description="GROUP_ID" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="data" Target="/app/data" Default="/mnt/user/appdata/grimmory" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/grimmory</Config>
+  <Config Name="bookdrop" Target="/bookdrop" Default="/mnt/user/grimmory-bookdrop" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/grimmory</Config>
+  <Config Name="Books" Target="/books" Default="/mnt/user/Books" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Books</Config>
+</Container>
