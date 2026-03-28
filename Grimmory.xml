@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/190366-booklore-template-support-thread</Support>
+  <Support>https://forums.unraid.net/topic/197979-support-grimmory/</Support>
   <Project>https://github.com/grimmory-tools/grimmory</Project>
   <Overview>Grimmory, previously known as BookLore, is a self-hosted application for managing your entire book collection in one place. Organize, read, annotate, sync across devices, and share without relying on third-party services.</Overview>
   <Category>Media Servers:</Category>
